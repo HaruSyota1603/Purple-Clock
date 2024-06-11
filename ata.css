@@ -1,0 +1,55 @@
+@font-face {
+    font-family: CoffeCake;
+    src: url(CoffeCake.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: CoffeCake;
+    box-sizing: 0;
+    color: rgba(156, 153, 153, 0.986);
+    font-size: 1.2rem;
+
+
+}
+
+body {
+    background: url('https://cdn.oneesports.gg/cdn-data/2023/10/Valorant_ValorantAget24_Iso_Art.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+h1 {
+    /* position: absolute; */
+    top: 5%;
+}
+
+.relogio {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    box-shadow: 0 8px 14px #6836db;
+    bottom: 10%;
+    width: 90%;
+    height: 50%;
+
+
+}
+
+.relogio div {
+    background-color: #4b0ed896;
+    border: 20% solid;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 3px;
+    box-shadow: 5px 5px;
+    margin: 2%;
+    padding: 3%;
+    border-radius: 15px;
+}
